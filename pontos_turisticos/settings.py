@@ -27,7 +27,7 @@ DEBUG = config('DEBUG', default=False, cast=bool)
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://pontos-turisticos-django-djf.herokuapp.com', 'localhost:8000']
+ALLOWED_HOSTS = ['pontos-turisticos-django-drf.herokuapp.com', 'localhost:8000']
 
 
 # Application definition
